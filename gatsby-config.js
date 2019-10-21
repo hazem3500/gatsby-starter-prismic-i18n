@@ -29,8 +29,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-prismic',
       options: {
-        repositoryName: 'gatsby-starter-prismic',
-        accessToken: `${process.env.API_KEY}`,
+        repositoryName: 'adam-ai-gastby-prismic-test',
+        accessToken: `${process.env.PRISMIC_API_KEY}`,
         // Get the correct URLs in blog posts
         linkResolver: () => prismicLinkResolver,
         // PrismJS highlighting for labels and slices
